@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.nav {
+  background-color: #fee2b3;
+
+  padding: 10px 200px;
+  position: sticky;
+  top: 0;
+  z-index: 11;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.inp {
+  width: 200px !important;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0.1px 0.1px 5px grey;
+}
+
+.inp:focus {
+  outline: none;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  margin-right: 40px;
+}
+
+.footer {
+  background-image: url(https://preview.colorlib.com/theme/notary/images/hero_bg_footer.jpg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 90px;
+  color: white;
+  text-align: center;
+}
+
+header {
+  background-image: url(https://preview.colorlib.com/theme/notary/images/hero_bg_1.jpg.webp);
+  height: 60vh;
+  padding: 0px 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+  font-family: 'Playfair Display';
+
+}
+
+header h1 {
+  font-size: 50px;
+}
+
+.cards {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 300px;
+  background-color: #f8f9fa;
+  padding-bottom: 50px;
+}
+
+.cards h1 {
+  font-size: 34px;
+}
+
+.cards h1 span {
+  font-family: 'Playfair Display';
+  font-weight: 400;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: start;
+}
+
+.product {
+  width: 400px;
+  margin-right: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.reliable {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 320px;
+  padding-right: 320px;
+}
+
+.reliable .images {
+  display: flex;
+}
+
+.reliable .images img {
+  height: 450px;
+  margin-right: 20px;
+}
+
+.reliable .info {
+  margin-left: 90px;
+}
+
+.reliable .info h1 {
+  font-family: 'Playfair Display';
+  font-size: 32px;
+  font-weight: 400;
+  color: #364d59;
+}
+
+.reliable .info p {
+  color: #364d59;
+}
+
+.reliable .info h1 span {
+  font-weight: 700;
+  color: black;
+}
+
+.reliable .info button {
+  background-color: #fee2b3;
+  padding: 15px;
+  border-radius: 8px;
+  color: #212529;
+  margin-top: 40px;
+  border: none;
+}
+
+.customers {
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.customers h1 {
+  font-family: 'Playfair Display';
+  color: #364d59;
+  font-size: 40px;
+}
+
+.customerCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 300px;
+}
+
+.card1 {
+  background-color: white;
+  margin-right: 30px;
+  padding: 30px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0.1px 0.1px 5px grey;
+}
+
+.customer-img {
+  display: flex;
+  align-items: center;
+}
+
+.customer-img h5 {
+  margin-bottom: -10px;
+}
+
+.customer-info {
+  margin-left: 20px;
+}
+
+.customer-info p {
+  color: #ccc;
+
+}
+
+.customer-about {
+  line-height: 30px;
+  font-size: 20px;
+  color: #364d59;
+}
+
+.customer-img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.form {
+  margin-top: 20px;
+  height: 69vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input {
+  margin-bottom: 50px;
+  width: 300px;
+  height: 20px;
+  padding: 15px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0.1px 0.1px 5px grey;
+}
+
+.button {
+  padding: 5px;
+}
