@@ -46,7 +46,7 @@
 header {
   background-image: url(https://preview.colorlib.com/theme/notary/images/hero_bg_1.jpg.webp);
   height: 60vh;
-  padding: 0px 700px;
+  padding: 0px 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,7 +67,7 @@ header h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px 300px;
+  padding: 0px 100px;
   background-color: #f8f9fa;
   padding-bottom: 50px;
 }
@@ -101,7 +101,7 @@ header h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px 320px;
+  padding: 50px 100px;
   padding-right: 320px;
 }
 
